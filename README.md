@@ -3,12 +3,19 @@ This tool checks for available NIE Appointment(s) in the Barcelona office and se
 
 ---
 
+## Architecture
+
+Suggested deployment architecture
+
+![images/img_1.png](images/img_1.png)
+
+
 ### Why?
 
 At the time of development it is extremely difficult to find a NIE Appointment in Barcelona. 
 
 
-![img.png](img.png)
+![images/img.png](images/img.png)
 
 ---
 
@@ -20,3 +27,10 @@ Environment Variables used in script
 | -------- | ----- |
 | `SLACK_WEBHOOK_URL` | Incoming Webhook URL for Slack |
 | `SLACK_MEMBER_ID` | Member ID of User to Mention | 
+
+### Todo
+
+:white_check_mark: Add Slack notifications  
+:white_square_button: Add Terraform deployment scripts  
+:white_square_button: Save polling results to database  
+:white_square_button: Dashboard historical availability using db
